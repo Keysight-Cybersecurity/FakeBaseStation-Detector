@@ -5,5 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "cryptomobile",
+    "pycrate>=0.7.9",
+    "pycryptodome>=3.22.0",
     "python-dotenv>=1.1.0",
 ]
+
+[tool.uv.sources]
+cryptomobile = { git = "https://github.com/mitshell/CryptoMobile.git" }
